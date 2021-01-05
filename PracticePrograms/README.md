@@ -7,16 +7,16 @@
 - In **TypeScript** we can use **Interfaces** and we can implement them easily than in JavaScript.
 - By using **TypeScript** we can write **less buggy** and more **easily** readable code.
 
-**Note**: There are **TypeScript** with **.ts** file extension and **JavaScript** with **.js** file extension with the same name.
+**Note:** There are **TypeScript** files with **.ts** file extension and **JavaScript** files with **.js** file extension with the same name.
 
 - That is because, when we execute **TypeScript** file using node we have to first create **JavaScript** file and then later we execute the generated javaScript file using node.
-- To JavaScript file using TypeScript file, run the below command in your terminal.
+- To create JavaScript file using TypeScript file, run the below command in your terminal.
 
 ```node
 tsc <filename>.ts
 ```
 
-- By running the above command it will create a **.js** file and then we have to run the below code to execute our program.
+- By running the above command it will create a **.js** file and then we have to run the below command to execute our program.
 
 ```node
 node <filename>.js
