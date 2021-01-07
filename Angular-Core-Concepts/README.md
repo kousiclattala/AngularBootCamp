@@ -81,3 +81,5 @@ platformBrowserDynamic().bootstraoModule(AppModule); //informing Angular to load
 - Like this we can create _n_ number of modules and _n_ number of components, but there is only one **rootModule**, where it is the top in the heirerachy and our app loads from there only.
 
 - If you have multiple components then you have to incorporate them in template _(html)_ files. In the above example the **component1** have _selector_ metadata, that has to be incorporated in **global HTML** _(index.html)_ file and the _selector_ metadata in **component2** has to be incorporated in **app.component1.html** file but not in the **global HTML** _(index.html)_ file. i.e. beacuse in the **global HTML** _(index.html)_ we have to incorporate only root component selector.
+
+## Link to Project: [core-angular](https://github.com/kousiclattala/core-angular)
